@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bundler", "bundler.csproj", "{5EFFC01F-FC6B-428B-90AA-2D73D8501D4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EFFC01F-FC6B-428B-90AA-2D73D8501D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFFC01F-FC6B-428B-90AA-2D73D8501D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFFC01F-FC6B-428B-90AA-2D73D8501D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFFC01F-FC6B-428B-90AA-2D73D8501D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EA6C8FC-E0DF-49C3-AC50-8280E29170DF}
+	EndGlobalSection
+EndGlobal
