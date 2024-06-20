@@ -31,10 +31,17 @@ namespace Bundler
 
             System.Diagnostics.Process p = new System.Diagnostics.Process();
             p.StartInfo.FileName = "esbuild.exe";
-            p.StartInfo.Arguments = "input.js --outdir=out --minify --sourcemap";
+            p.StartInfo.Arguments = "input.js --outfile=out\\bundle.js --minify --sourcemap";
             p.StartInfo.UseShellExecute = false;
             p.Start();
             p.WaitForExit();
+
+            if(args.Length == 2)
+            {
+                // Comment file
+                string comment = File.ReadAllText(args[1]);
+                File.WriteAllText("out\\bundle.js", comment + "\n" + File.ReadAllText("out\\bundle.js"));
+            }
         }
     }
 }
